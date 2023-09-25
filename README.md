@@ -30,4 +30,6 @@ cd yolov5-mater 입력 후 해당 파이썬 디렉토리로 이동
 python detect.py --weight runs\train\pothol_yolov5s\weights\best.pt --source C:\Users\Kimhyuntae\Desktop\Python_study\yolov5-master\data\pothole\test\images\*jpg 
 
 
+햇갈리면 그냥 절대참조로 디렉토리 불러오기 
+
  
