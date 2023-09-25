@@ -28,7 +28,7 @@ conda install chardet
  best.pt파일이 트레인된 파일
 
 # step6. detect시키기
-python detect.py --weight runs\train\pothol_yolov5s\weights\best.pt --source C:\Users\Kimhyuntae\Desktop\Python_study\yolov5-master\data\pothole\test\images\*jpg 
+python detect.py --weight runs\train\pothol_yolov5s\weights\best.pt --source C:\Users\Kimhyuntae\Desktop\Python_study\yolov5-master\data\pothole\test\images\ *jpg 
 
 햇갈리면 그냥 절대참조로 디렉토리 불러오기 
 
