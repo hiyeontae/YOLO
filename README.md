@@ -15,7 +15,7 @@ ex)
 conda isntall git
 conda install chardet
 
-# step4. roboflow에서 이미지 다운로드 후 폴더위치 선택
+# step4. roboflow에서 이미지 다운로드 후 폴더위치 선택 (및 data.yaml 파일 수정)
 폴더위치 : yolov5-master/data에 pothole 폴더 만들고 이 위치에 설치
 
   cd yolov5-mater 입력 후 해당 파이썬 디렉토리로 이동
