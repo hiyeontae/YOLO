@@ -20,6 +20,8 @@ conda install chardet
 
   cd yolov5-mater 입력 후 해당 파이썬 디렉토리로 이동
 
+  data.yaml 파일의 디렉토리 경로 수정
+
  # step5. 학습시키기(trian)     
  python train.py --img 416 --batch 16 --epochs 20 --data pothole/data.yaml --cfg ./models/yolov5s.yaml --weights yolov5s.pt --name pothol_yolov5s
 
